@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Programming Lanuguage!"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/color6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="307dp"
+        android:background="@color/color7"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <CheckBox
+            android:id="@+id/androidc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="android"
+            android:textColor="@color/color1"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/javac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="java"
+            android:textColor="@color/color2"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/phpc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="php"
+            android:textColor="@color/color3"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/pythonc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="python"
+            android:textColor="@color/color4"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/unity3dc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="unity3d"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
